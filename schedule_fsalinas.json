@@ -1,0 +1,2029 @@
+{
+    "username": "fsalinas",
+    "password": "yo",
+    "weeks": {
+        "1": {
+            "1": [
+                {
+                    "exercise": "Bent Over Rows",
+                    "tags": "main",
+                    "sets": [
+                        {
+                            "reps": "5",
+                            "weight": 105,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": "5",
+                            "weight": 120,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": "5+",
+                            "weight": 140,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 105,
+                            "type": "FSL"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 105,
+                            "type": "FSL"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 105,
+                            "type": "FSL"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Lat Pull Down",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 110,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 110,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 110,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Seated Cable Row",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 110,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 110,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 110,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Face Pulls ",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 50,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 50,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 50,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "EZ-Bar Curls",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 40,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 40,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 40,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Hammer Curls",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 20,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 20,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 20,
+                            "type": "Acc"
+                        }
+                    ]
+                }
+            ],
+            "2": [
+                {
+                    "exercise": "Flat Bench",
+                    "tags": "main",
+                    "sets": [
+                        {
+                            "reps": "5",
+                            "weight": 125,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": "5",
+                            "weight": 145,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": "5+",
+                            "weight": 165,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 125,
+                            "type": "FSL"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 125,
+                            "type": "FSL"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 125,
+                            "type": "FSL"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Shoulder Press OHP",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 35,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 35,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 35,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Incline Bench",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 95,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 95,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 95,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "DB Chest Press",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 35,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 35,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 35,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Skull Crushers",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 50,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 50,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 50,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Cable Pushdowns",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 85,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 85,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 85,
+                            "type": "Acc"
+                        }
+                    ]
+                }
+            ],
+            "3": [
+                {
+                    "exercise": "Front Squat",
+                    "tags": "main",
+                    "sets": [
+                        {
+                            "reps": "5",
+                            "weight": 80,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": "5",
+                            "weight": 90,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": "5+",
+                            "weight": 105,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 80,
+                            "type": "FSL"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 80,
+                            "type": "FSL"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 80,
+                            "type": "FSL"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Deadlifts",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 135,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 135,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 135,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Romanian Stiff Leg Deadlifts",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 110,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 110,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 110,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Leg Press",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 180,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 180,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 180,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Leg Extension",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 80,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 80,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 80,
+                            "type": "Acc"
+                        }
+                    ]
+                }
+            ],
+            "4": [
+                {
+                    "exercise": "Dumbbell Overhead Press",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 25,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 25,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 25,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Chest-Supported DB Row",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 40,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 40,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 40,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Hip Thrust",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 135,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 135,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 135,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Bulgarian Split Squat",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 25,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 25,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 25,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Face Pulls ",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 50,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 50,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 50,
+                            "type": "Acc"
+                        }
+                    ]
+                }
+            ]
+        },
+        "2": {
+            "1": [
+                {
+                    "exercise": "Bent Over Rows",
+                    "tags": "main",
+                    "sets": [
+                        {
+                            "reps": "3",
+                            "weight": 115,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": "3",
+                            "weight": 130,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": "3+",
+                            "weight": 145,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 115,
+                            "type": "FSL"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 115,
+                            "type": "FSL"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 115,
+                            "type": "FSL"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Lat Pull Down",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 10,
+                            "weight": 115,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 115,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 115,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Seated Cable Row",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 10,
+                            "weight": 115,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 115,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 115,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Face Pulls ",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 10,
+                            "weight": 50,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 50,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 50,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "EZ-Bar Curls",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 10,
+                            "weight": 40,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 40,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 40,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Hammer Curls",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 10,
+                            "weight": 20,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 20,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 20,
+                            "type": "Acc"
+                        }
+                    ]
+                }
+            ],
+            "2": [
+                {
+                    "exercise": "Flat Bench",
+                    "tags": "main",
+                    "sets": [
+                        {
+                            "reps": "3",
+                            "weight": 135,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": "3",
+                            "weight": 155,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": "3+",
+                            "weight": 175,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 135,
+                            "type": "FSL"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 135,
+                            "type": "FSL"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 135,
+                            "type": "FSL"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Shoulder Press OHP",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 10,
+                            "weight": 35,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 35,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 35,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Incline Bench",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 10,
+                            "weight": 100,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 100,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 100,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "DB Chest Press",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 10,
+                            "weight": 40,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 40,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 40,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Skull Crushers",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 10,
+                            "weight": 50,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 50,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 50,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Cable Pushdowns",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 10,
+                            "weight": 90,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 90,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 90,
+                            "type": "Acc"
+                        }
+                    ]
+                }
+            ],
+            "3": [
+                {
+                    "exercise": "Front Squat",
+                    "tags": "main",
+                    "sets": [
+                        {
+                            "reps": "3",
+                            "weight": 85,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": "3",
+                            "weight": 95,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": "3+",
+                            "weight": 110,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 85,
+                            "type": "FSL"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 85,
+                            "type": "FSL"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 85,
+                            "type": "FSL"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Deadlifts",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 10,
+                            "weight": 145,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 145,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 145,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Romanian Stiff Leg Deadlifts",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 10,
+                            "weight": 120,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 120,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 120,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Leg Press",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 10,
+                            "weight": 195,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 195,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 195,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Leg Extension",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 10,
+                            "weight": 85,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 85,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 85,
+                            "type": "Acc"
+                        }
+                    ]
+                }
+            ],
+            "4": [
+                {
+                    "exercise": "Dumbbell Overhead Press",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 10,
+                            "weight": 30,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 30,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 30,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Chest-Supported DB Row",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 10,
+                            "weight": 45,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 45,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 45,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Hip Thrust",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 10,
+                            "weight": 145,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 145,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 145,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Bulgarian Split Squat",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 10,
+                            "weight": 25,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 25,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 25,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Face Pulls ",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 10,
+                            "weight": 50,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 50,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 10,
+                            "weight": 50,
+                            "type": "Acc"
+                        }
+                    ]
+                }
+            ]
+        },
+        "3": {
+            "1": [
+                {
+                    "exercise": "Bent Over Rows",
+                    "tags": "main",
+                    "sets": [
+                        {
+                            "reps": "5",
+                            "weight": 120,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": "3",
+                            "weight": 140,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": "1+",
+                            "weight": 155,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 120,
+                            "type": "FSL"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 120,
+                            "type": "FSL"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 120,
+                            "type": "FSL"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Lat Pull Down",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 8,
+                            "weight": 125,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 125,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 125,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 125,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Seated Cable Row",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 8,
+                            "weight": 125,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 125,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 125,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 125,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Face Pulls ",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 8,
+                            "weight": 55,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 55,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 55,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 55,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "EZ-Bar Curls",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 8,
+                            "weight": 45,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 45,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 45,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 45,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Hammer Curls",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 8,
+                            "weight": 20,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 20,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 20,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 20,
+                            "type": "Acc"
+                        }
+                    ]
+                }
+            ],
+            "2": [
+                {
+                    "exercise": "Flat Bench",
+                    "tags": "main",
+                    "sets": [
+                        {
+                            "reps": "5",
+                            "weight": 145,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": "3",
+                            "weight": 165,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": "1+",
+                            "weight": 185,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 145,
+                            "type": "FSL"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 145,
+                            "type": "FSL"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 145,
+                            "type": "FSL"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Shoulder Press OHP",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 8,
+                            "weight": 40,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 40,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 40,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 40,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Incline Bench",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 8,
+                            "weight": 110,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 110,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 110,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 110,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "DB Chest Press",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 8,
+                            "weight": 40,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 40,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 40,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 40,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Skull Crushers",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 8,
+                            "weight": 55,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 55,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 55,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 55,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Cable Pushdowns",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 8,
+                            "weight": 100,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 100,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 100,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 100,
+                            "type": "Acc"
+                        }
+                    ]
+                }
+            ],
+            "3": [
+                {
+                    "exercise": "Front Squat",
+                    "tags": "main",
+                    "sets": [
+                        {
+                            "reps": "5",
+                            "weight": 90,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": "3",
+                            "weight": 105,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": "1+",
+                            "weight": 115,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 90,
+                            "type": "FSL"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 90,
+                            "type": "FSL"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 90,
+                            "type": "FSL"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Deadlifts",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 8,
+                            "weight": 160,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 160,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 160,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 160,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Romanian Stiff Leg Deadlifts",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 8,
+                            "weight": 130,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 130,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 130,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 130,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Leg Press",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 8,
+                            "weight": 210,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 210,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 210,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 210,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Leg Extension",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 8,
+                            "weight": 90,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 90,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 90,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 90,
+                            "type": "Acc"
+                        }
+                    ]
+                }
+            ],
+            "4": [
+                {
+                    "exercise": "Dumbbell Overhead Press",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 8,
+                            "weight": 30,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 30,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 30,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 30,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Chest-Supported DB Row",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 8,
+                            "weight": 50,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 50,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 50,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 50,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Hip Thrust",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 8,
+                            "weight": 160,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 160,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 160,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 160,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Bulgarian Split Squat",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 8,
+                            "weight": 30,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 30,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 30,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 30,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Face Pulls ",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 8,
+                            "weight": 55,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 55,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 55,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 8,
+                            "weight": 55,
+                            "type": "Acc"
+                        }
+                    ]
+                }
+            ]
+        },
+        "4": {
+            "1": [
+                {
+                    "exercise": "Bent Over Rows",
+                    "tags": "main",
+                    "sets": [
+                        {
+                            "reps": "5",
+                            "weight": 65,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": "5",
+                            "weight": 80,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": "5",
+                            "weight": 100,
+                            "type": "Main"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Lat Pull Down",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 90,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 90,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Seated Cable Row",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 90,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 90,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Face Pulls ",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 40,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 40,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "EZ-Bar Curls",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 30,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 30,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Hammer Curls",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 15,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 15,
+                            "type": "Acc"
+                        }
+                    ]
+                }
+            ],
+            "2": [
+                {
+                    "exercise": "Flat Bench",
+                    "tags": "main",
+                    "sets": [
+                        {
+                            "reps": "5",
+                            "weight": 80,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": "5",
+                            "weight": 95,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": "5",
+                            "weight": 115,
+                            "type": "Main"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Shoulder Press OHP",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 30,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 30,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Incline Bench",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 80,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 80,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "DB Chest Press",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 30,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 30,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Skull Crushers",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 40,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 40,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Cable Pushdowns",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 70,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 70,
+                            "type": "Acc"
+                        }
+                    ]
+                }
+            ],
+            "3": [
+                {
+                    "exercise": "Front Squat",
+                    "tags": "main",
+                    "sets": [
+                        {
+                            "reps": "5",
+                            "weight": 50,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": "5",
+                            "weight": 60,
+                            "type": "Main"
+                        },
+                        {
+                            "reps": "5",
+                            "weight": 70,
+                            "type": "Main"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Deadlifts",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 110,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 110,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Romanian Stiff Leg Deadlifts",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 90,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 90,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Leg Press",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 150,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 150,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Leg Extension",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 65,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 65,
+                            "type": "Acc"
+                        }
+                    ]
+                }
+            ],
+            "4": [
+                {
+                    "exercise": "Dumbbell Overhead Press",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 20,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 20,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Chest-Supported DB Row",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 35,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 35,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Hip Thrust",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 110,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 110,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Bulgarian Split Squat",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 20,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 20,
+                            "type": "Acc"
+                        }
+                    ]
+                },
+                {
+                    "exercise": "Face Pulls ",
+                    "tags": "nan",
+                    "sets": [
+                        {
+                            "reps": 12,
+                            "weight": 40,
+                            "type": "Acc"
+                        },
+                        {
+                            "reps": 12,
+                            "weight": 40,
+                            "type": "Acc"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
