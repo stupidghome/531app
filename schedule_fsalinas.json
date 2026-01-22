@@ -42,6 +42,11 @@
                             "reps": 5,
                             "weight": 105,
                             "type": "FSL"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 105,
+                            "type": "FSL"
                         }
                     ]
                 },
@@ -190,6 +195,11 @@
                             "reps": 5,
                             "weight": 125,
                             "type": "FSL"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 125,
+                            "type": "FSL"
                         }
                     ]
                 },
@@ -318,6 +328,11 @@
                             "reps": "5+",
                             "weight": 105,
                             "type": "Main"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 80,
+                            "type": "FSL"
                         },
                         {
                             "reps": 5,
@@ -574,6 +589,11 @@
                             "reps": 5,
                             "weight": 115,
                             "type": "FSL"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 115,
+                            "type": "FSL"
                         }
                     ]
                 },
@@ -722,6 +742,11 @@
                             "reps": 5,
                             "weight": 135,
                             "type": "FSL"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 135,
+                            "type": "FSL"
                         }
                     ]
                 },
@@ -850,6 +875,11 @@
                             "reps": "3+",
                             "weight": 110,
                             "type": "Main"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 85,
+                            "type": "FSL"
                         },
                         {
                             "reps": 5,
@@ -1106,6 +1136,11 @@
                             "reps": 5,
                             "weight": 120,
                             "type": "FSL"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 120,
+                            "type": "FSL"
                         }
                     ]
                 },
@@ -1279,6 +1314,11 @@
                             "reps": 5,
                             "weight": 145,
                             "type": "FSL"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 145,
+                            "type": "FSL"
                         }
                     ]
                 },
@@ -1432,6 +1472,11 @@
                             "reps": "1+",
                             "weight": 115,
                             "type": "Main"
+                        },
+                        {
+                            "reps": 5,
+                            "weight": 90,
+                            "type": "FSL"
                         },
                         {
                             "reps": 5,
