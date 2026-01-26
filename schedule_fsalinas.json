@@ -311,68 +311,68 @@
             ],
             "3": [
                 {
-                    "exercise": "Front Squat",
+                    "exercise": "Deadlifts",
                     "tags": "main",
                     "sets": [
                         {
                             "reps": "5",
-                            "weight": 80,
+                            "weight": 155,
                             "type": "Main"
                         },
                         {
                             "reps": "5",
-                            "weight": 90,
+                            "weight": 175,
                             "type": "Main"
                         },
                         {
                             "reps": "5+",
-                            "weight": 105,
+                            "weight": 200,
                             "type": "Main"
                         },
                         {
                             "reps": 5,
-                            "weight": 80,
+                            "weight": 155,
                             "type": "FSL"
                         },
                         {
                             "reps": 5,
-                            "weight": 80,
+                            "weight": 155,
                             "type": "FSL"
                         },
                         {
                             "reps": 5,
-                            "weight": 80,
+                            "weight": 155,
                             "type": "FSL"
                         },
                         {
                             "reps": 5,
-                            "weight": 80,
+                            "weight": 155,
                             "type": "FSL"
                         },
                         {
                             "reps": 5,
-                            "weight": 80,
+                            "weight": 155,
                             "type": "FSL"
                         }
                     ]
                 },
                 {
-                    "exercise": "Deadlifts",
+                    "exercise": "Front Squats",
                     "tags": "nan",
                     "sets": [
                         {
                             "reps": 12,
-                            "weight": 135,
+                            "weight": 70,
                             "type": "Acc"
                         },
                         {
                             "reps": 12,
-                            "weight": 135,
+                            "weight": 70,
                             "type": "Acc"
                         },
                         {
                             "reps": 12,
-                            "weight": 135,
+                            "weight": 70,
                             "type": "Acc"
                         }
                     ]
@@ -858,68 +858,68 @@
             ],
             "3": [
                 {
-                    "exercise": "Front Squat",
+                    "exercise": "Deadlifts",
                     "tags": "main",
                     "sets": [
                         {
                             "reps": "3",
-                            "weight": 85,
+                            "weight": 165,
                             "type": "Main"
                         },
                         {
                             "reps": "3",
-                            "weight": 95,
+                            "weight": 190,
                             "type": "Main"
                         },
                         {
                             "reps": "3+",
-                            "weight": 110,
+                            "weight": 215,
                             "type": "Main"
                         },
                         {
                             "reps": 5,
-                            "weight": 85,
+                            "weight": 165,
                             "type": "FSL"
                         },
                         {
                             "reps": 5,
-                            "weight": 85,
+                            "weight": 165,
                             "type": "FSL"
                         },
                         {
                             "reps": 5,
-                            "weight": 85,
+                            "weight": 165,
                             "type": "FSL"
                         },
                         {
                             "reps": 5,
-                            "weight": 85,
+                            "weight": 165,
                             "type": "FSL"
                         },
                         {
                             "reps": 5,
-                            "weight": 85,
+                            "weight": 165,
                             "type": "FSL"
                         }
                     ]
                 },
                 {
-                    "exercise": "Deadlifts",
+                    "exercise": "Front Squats",
                     "tags": "nan",
                     "sets": [
                         {
                             "reps": 10,
-                            "weight": 145,
+                            "weight": 75,
                             "type": "Acc"
                         },
                         {
                             "reps": 10,
-                            "weight": 145,
+                            "weight": 75,
                             "type": "Acc"
                         },
                         {
                             "reps": 10,
-                            "weight": 145,
+                            "weight": 75,
                             "type": "Acc"
                         }
                     ]
@@ -1455,73 +1455,73 @@
             ],
             "3": [
                 {
-                    "exercise": "Front Squat",
+                    "exercise": "Deadlifts",
                     "tags": "main",
                     "sets": [
                         {
                             "reps": "5",
-                            "weight": 90,
+                            "weight": 175,
                             "type": "Main"
                         },
                         {
                             "reps": "3",
-                            "weight": 105,
+                            "weight": 200,
                             "type": "Main"
                         },
                         {
                             "reps": "1+",
-                            "weight": 115,
+                            "weight": 225,
                             "type": "Main"
                         },
                         {
                             "reps": 5,
-                            "weight": 90,
+                            "weight": 175,
                             "type": "FSL"
                         },
                         {
                             "reps": 5,
-                            "weight": 90,
+                            "weight": 175,
                             "type": "FSL"
                         },
                         {
                             "reps": 5,
-                            "weight": 90,
+                            "weight": 175,
                             "type": "FSL"
                         },
                         {
                             "reps": 5,
-                            "weight": 90,
+                            "weight": 175,
                             "type": "FSL"
                         },
                         {
                             "reps": 5,
-                            "weight": 90,
+                            "weight": 175,
                             "type": "FSL"
                         }
                     ]
                 },
                 {
-                    "exercise": "Deadlifts",
+                    "exercise": "Front Squats",
                     "tags": "nan",
                     "sets": [
                         {
                             "reps": 8,
-                            "weight": 160,
+                            "weight": 80,
                             "type": "Acc"
                         },
                         {
                             "reps": 8,
-                            "weight": 160,
+                            "weight": 80,
                             "type": "Acc"
                         },
                         {
                             "reps": 8,
-                            "weight": 160,
+                            "weight": 80,
                             "type": "Acc"
                         },
                         {
                             "reps": 8,
-                            "weight": 160,
+                            "weight": 80,
                             "type": "Acc"
                         }
                     ]
@@ -1947,38 +1947,38 @@
             ],
             "3": [
                 {
-                    "exercise": "Front Squat",
+                    "exercise": "Deadlifts",
                     "tags": "main",
                     "sets": [
                         {
                             "reps": "5",
-                            "weight": 50,
+                            "weight": 95,
                             "type": "Main"
                         },
                         {
                             "reps": "5",
-                            "weight": 60,
+                            "weight": 120,
                             "type": "Main"
                         },
                         {
                             "reps": "5",
-                            "weight": 70,
+                            "weight": 140,
                             "type": "Main"
                         }
                     ]
                 },
                 {
-                    "exercise": "Deadlifts",
+                    "exercise": "Front Squats",
                     "tags": "nan",
                     "sets": [
                         {
                             "reps": 12,
-                            "weight": 110,
+                            "weight": 60,
                             "type": "Acc"
                         },
                         {
                             "reps": 12,
-                            "weight": 110,
+                            "weight": 60,
                             "type": "Acc"
                         }
                     ]
