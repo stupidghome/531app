@@ -1,6 +1,6 @@
 import streamlit as st
 import json
-from db531 import load_user_schedule, load_progress, save_progress
+from db531 import load_progress, save_progress
 
 # --- 1. UI CONFIG & SKIN ---
 st.set_page_config(page_title="5/3/1 Training", layout="centered")
@@ -38,6 +38,7 @@ st.markdown("""
 if 'page' not in st.session_state:
     st.session_state['page'] = 'login'
 
+# --- 2. DIALOGS ---
 @st.dialog("Workout Finished")
 def completion_dialog(day_label, username, day_key, week_num):
     st.write(f"### Finalize {day_label}?")
@@ -52,56 +53,75 @@ def completion_dialog(day_label, username, day_key, week_num):
     if col2.button("Cancel"):
         st.rerun()
 
+# --- 3. PAGE LOGIC ---
+
 # PAGE 1: LOGIN
 if st.session_state['page'] == 'login':
     st.title("🏋️ 5/3/1 Login")
     u = st.text_input("Username").lower().strip()
     p = st.text_input("Password", type="password")
-    # Replace your login logic with this
-    if st.button("Enter", type="primary"):
-        with open("schedule_fsalinas.json", "r") as f:
-            full_data = json.load(f)
     
-        # Check if the entered username exists in your local JSON
-        if u == full_data.get('username') and p == full_data.get('password'):
-            st.session_state['username'] = u
-            st.session_state['page'] = 'selection'
-            st.rerun()
-        else:
-            st.error("Invalid Username or Password")
+    if st.button("Enter", type="primary"):
+        try:
+            with open("schedule_fsalinas.json", "r") as f:
+                full_data = json.load(f)
+            
+            if u == full_data.get('username') and p == full_data.get('password'):
+                st.session_state['username'] = u
+                st.session_state['page'] = 'selection'
+                st.rerun()
+            else:
+                st.error("Invalid Username or Password")
+        except FileNotFoundError:
+            st.error("Error: schedule_fsalinas.json not found in folder.")
+        except json.JSONDecodeError:
+            st.error("Error: schedule_fsalinas.json has formatting errors (check quotes).")
 
 # PAGE 2: SELECTION
 elif st.session_state['page'] == 'selection':
     with open("schedule_fsalinas.json", "r") as f:
         schedule = json.load(f)
+        
     username = st.session_state['username']
-    schedule = load_user_schedule(username)
-    if not schedule:
-        st.error("Schedule not found in Google Sheets.")
-        if st.button("Logout"): 
-            st.session_state['page'] = 'login'
-            st.rerun()
-    else:
-        st.title("Main Menu")
-        sel_week = st.selectbox("Select Training Week", ["1", "2", "3", "4"])
-        day_map = {f"Day {d}: {next((ex['exercise'] for ex in schedule['weeks'][sel_week].get(d, []) if ex['tags'] == 'main'), 'Supplemental')}": d for d in ["1", "2", "3", "4"]}
-        
-        sel_day_label = st.selectbox("Select Workout Day", options=list(day_map.keys()))
-        sel_day_key = day_map[sel_day_label]
-        
-        if st.button("Start Workout", type="primary"):
-            st.session_state.update({'sel_week': sel_week, 'sel_day_key': sel_day_key, 'sel_day_label': sel_day_label, 'page': 'workout'})
-            st.rerun()
-        
-        if st.button("Logout"):
-            st.session_state['page'] = 'login'
-            st.rerun()
+    st.title("Main Menu")
+    
+    sel_week = st.selectbox("Select Training Week", ["1", "2", "3", "4"])
+    
+    # Extract main lifts for the labels
+    day_options = ["1", "2", "3", "4"]
+    day_map = {}
+    for d in day_options:
+        day_exercises = schedule['weeks'][sel_week].get(d, [])
+        main_lift = next((ex['exercise'] for ex in day_exercises if ex.get('tags') == 'main'), "Supplemental")
+        label = f"Day {d}: {main_lift}"
+        day_map[label] = d
+    
+    sel_day_label = st.selectbox("Select Workout Day", options=list(day_map.keys()))
+    sel_day_key = day_map[sel_day_label]
+    
+    if st.button("Start Workout", type="primary"):
+        st.session_state.update({
+            'sel_week': sel_week, 
+            'sel_day_key': sel_day_key, 
+            'sel_day_label': sel_day_label, 
+            'page': 'workout'
+        })
+        st.rerun()
+    
+    if st.button("Logout"):
+        st.session_state['page'] = 'login'
+        st.rerun()
 
 # PAGE 3: WORKOUT
 elif st.session_state['page'] == 'workout':
     username = st.session_state['username']
-    week, day_key, day_label = st.session_state['sel_week'], st.session_state['sel_day_key'], st.session_state['sel_day_label']
-    schedule = load_user_schedule(username)
+    week = st.session_state['sel_week']
+    day_key = st.session_state['sel_day_key']
+    day_label = st.session_state['sel_day_label']
+    
+    with open("schedule_fsalinas.json", "r") as f:
+        schedule = json.load(f)
+        
     progress = load_progress(username)
     is_day_done = progress.get(f"day_done_w{week}_d{day_key}", False)
 
@@ -118,13 +138,16 @@ elif st.session_state['page'] == 'workout':
     for idx, ex in enumerate(exercises):
         ex_key = f"{username}_w{week}_d{day_key}_ex{idx}"
         day_keys.append(ex_key)
-        st.markdown(f"**:blue[{ex['exercise'].upper()}]**")
-        sets = " • ".join([f"{s['reps']}x{s['weight']}" for s in ex['sets']])
-        st.markdown(f'<div style="font-size: 1.6rem; margin-bottom: 10px;">{sets}</div>', unsafe_allow_html=True)
         
-        # INSTANT CLOUD SAVE
-        checked = st.checkbox("DONE", value=progress.get(ex_key, False), key=ex_key, disabled=is_day_done)
-        if checked != progress.get(ex_key, False):
+        st.markdown(f"**:blue[{ex['exercise'].upper()}]**")
+        sets_text = " • ".join([f"{s['reps']}x{s['weight']}" for s in ex['sets']])
+        st.markdown(f'<div style="font-size: 1.6rem; margin-bottom: 10px;">{sets_text}</div>', unsafe_allow_html=True)
+        
+        # Checkbox logic with instant Cloud Save to Google Sheets
+        is_checked = progress.get(ex_key, False)
+        checked = st.checkbox("DONE", value=is_checked, key=ex_key, disabled=is_day_done)
+        
+        if checked != is_checked:
             progress[ex_key] = checked
             save_progress(username, progress)
             st.rerun()
