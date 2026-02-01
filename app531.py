@@ -107,7 +107,7 @@ elif st.session_state['page'] == 'workout':
             if all_c: completion_dialog(day_label, username, day_key, week)
             else: st.warning("Finish all exercises.")
 
-    /* 5. Add space between exercises so you don't mis-click */
+    /* 5. Add space between exercises so you do not mis-click */
     hr {
         margin-top: 2rem !important;
         margin-bottom: 2rem !important;
