@@ -7,11 +7,31 @@ st.set_page_config(page_title="5/3/1 Training", layout="centered")
 
 st.markdown("""
     <style>
-    html, body, [class*="st-"] { font-size: 1.2rem !important; }
-    [data-testid="stCheckbox"] { transform: scale(1.8); margin-left: 15px; margin-bottom: 20px; }
-    .stButton > button { height: 4em !important; width: 100% !important; font-size: 1.2rem !important; }
-    div.stButton > button[kind="primary"] { background-color: #28a745; color: white; border-radius: 10px; font-weight: bold; }
-    hr { margin-top: 2rem !important; margin-bottom: 2rem !important; border-top: 2px solid #444 !important; }
+    html, body, [class*="st-"] {
+        font-size: 1.2rem !important;
+    }
+    [data-testid="stCheckbox"] {
+        transform: scale(1.8);
+        margin-left: 15px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .stButton > button {
+        height: 4em !important;
+        width: 100% !important;
+        font-size: 1.2rem !important;
+    }
+    div.stButton > button[kind="primary"] {
+        background-color: #28a745;
+        color: white;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+    hr {
+        margin-top: 2rem !important;
+        margin-bottom: 2rem !important;
+        border-top: 2px solid #444 !important;
+    }
     </style>
 """, unsafe_allow_html=True)
 
