@@ -105,7 +105,7 @@ elif st.session_state['page'] == 'workout':
         all_c = all(progress.get(k, False) for k in day_keys)
         if st.button("COMPLETE WORKOUT", type="primary" if all_c else "secondary"):
             if all_c: completion_dialog(day_label, username, day_key, week)
-            else: st.warning("Finish all exercises.")    }
+            else: st.warning("Finish all exercises.")
 
     /* 5. Add space between exercises so you don't mis-click */
     hr {
@@ -217,4 +217,4 @@ elif st.session_state['page'] == 'workout':
                 completion_dialog(day_label, username, day_key, week)
             else:
                 st.warning("Finish all exercises.")
-}
+
