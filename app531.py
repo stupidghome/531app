@@ -217,3 +217,4 @@ elif st.session_state['page'] == 'workout':
                 completion_dialog(day_label, username, day_key, week)
             else:
                 st.warning("Finish all exercises.")
+}
