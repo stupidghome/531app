@@ -59,7 +59,7 @@ if st.session_state['page'] == 'login':
     p = st.text_input("Password", type="password")
     # Replace your login logic with this
     if st.button("Enter", type="primary"):
-        with open("schedule.json", "r") as f:
+        with open("schedule_fsalinas.json", "r") as f:
             full_data = json.load(f)
     
         # Check if the entered username exists in your local JSON
@@ -72,7 +72,7 @@ if st.session_state['page'] == 'login':
 
 # PAGE 2: SELECTION
 elif st.session_state['page'] == 'selection':
-    with open("schedule.json", "r") as f:
+    with open("schedule_fsalinas.json", "r") as f:
         schedule = json.load(f)
     username = st.session_state['username']
     schedule = load_user_schedule(username)
